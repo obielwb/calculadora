@@ -7,6 +7,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    height: 100vh;
 }
 
 /* Calculadora ================ */
@@ -14,16 +16,19 @@ body {
     display: grid;
     grid-template-columns: auto auto ;
     grid-gap: 5px;
-}   
+}     
 
 #calculadora #resultado {
     grid-column-start: 1;
     grid-column-end: 5;
+
+    height: 30px;
+    width: 200px;
 }
 
 /* Botões      ================ */
 #calculadora .numero {
-    padding: 5px;
+    padding: 10px;
     background-color: #f1f3f4;
 
     border-style: none;
@@ -35,7 +40,7 @@ body {
 }
 
 #calculadora .operacao {
-    padding: 5px;
+    padding: 10px;
     background-color: #dadce0;
 
     border-style: none;
