@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Calculadora ================ */
+#calculadora {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 5px;
+}   
+
+#calculadora #resultado {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+/* Botões      ================ */
+#calculadora .numero {
+    padding: 5px;
+    background-color: #f1f3f4;
+
+    border-style: none;
+    border-radius: 2px;
+}
+
+#calculadora .numero:hover {
+    background-color: #c7caccce;
+}
+
+#calculadora .operacao {
+    padding: 5px;
+    background-color: #dadce0;
+
+    border-style: none;
+    border-radius: 2px;
+}
+
+#calculadora .operacao:hover {
+    background-color: #f1f3f4;
+}
