@@ -18,6 +18,5 @@ function Dividir(num1, num2) {
 
 function ExibirNumero(id) {
     let valor = document.getElementById(`${id}`).value;
-
     document.getElementById("resultado").value += valor;
 }
