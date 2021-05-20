@@ -11,25 +11,25 @@
     <main id="calculadora">
         <input type="text" id="resultado" disabled>
 
-        <input type="button" onclick="ExibirNumero(1)" id="1" class="numero" value="1">
-        <input type="button" onclick="ExibirNumero(2)" id="2" class="numero" value="2">
-        <input type="button" onclick="ExibirNumero(3)" id="3" class="numero" value="3">
-        <input type="button" class="operacao" value="+">
+        <input type="button" onclick="ExibirNumero('1')" class="numero" value="1">
+        <input type="button" onclick="ExibirNumero('2')" class="numero" value="2">
+        <input type="button" onclick="ExibirNumero('3')" class="numero" value="3">
+        <input type="button" onclick="ExibirOperacao('+')" class="operacao" value="+">
 
-        <input type="button" onclick="ExibirNumero(4)" id="4" class="numero" value="4">
-        <input type="button" onclick="ExibirNumero(5)" id="5" class="numero" value="5">
-        <input type="button" onclick="ExibirNumero(6)" id="6" class="numero" value="6">
-        <input type="button" class="operacao" value="-">
+        <input type="button" onclick="ExibirNumero('4')" class="numero" value="4">
+        <input type="button" onclick="ExibirNumero('5')" class="numero" value="5">
+        <input type="button" onclick="ExibirNumero('6')" class="numero" value="6">
+        <input type="button" onclick="ExibirOperacao('-')" class="operacao" value="-">
 
-        <input type="button" onclick="ExibirNumero(7)" id="7" class="numero" value="7">
-        <input type="button" onclick="ExibirNumero(8)" id="8" class="numero" value="8">
-        <input type="button" onclick="ExibirNumero(9)" id="9" class="numero" value="9">
-        <input type="button" class="operacao" value="x">
+        <input type="button" onclick="ExibirNumero('7')" class="numero" value="7">
+        <input type="button" onclick="ExibirNumero('8')" class="numero" value="8">
+        <input type="button" onclick="ExibirNumero('9')" class="numero" value="9">
+        <input type="button" onclick="ExibirOperacao('*')" class="operacao" value="x">
 
-        <input type="button" class="operacao" value=".">
-        <input type="button" onclick="ExibirNumero(0)" id="0" class="numero" value="0">
-        <input type="button" class="operacao" value="=">
-        <input type="button" class="operacao" value="÷">
+        <input type="button" onclick="Resetar()" class="operacao" value="C">
+        <input type="button" onclick="ExibirNumero('0')" class="numero" value="0">
+        <input type="button" onclick="CalcularResultado()" class="operacao" id="calcular" value="=">
+        <input type="button" onclick="ExibirOperacao('/')" class="operacao" value="÷">
         
     </main>
     <script src="./main.js"></script>
