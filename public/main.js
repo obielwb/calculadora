@@ -24,7 +24,7 @@ function resetar() {
     document.getElementById("resultado").value = " ";
 }
 
-function CalcularResultado() {
+function calcularResultado() {
     modoDaCalculadora = "Exibição";
     let conta = document.querySelector("#resultado").value;
     if (conta)
